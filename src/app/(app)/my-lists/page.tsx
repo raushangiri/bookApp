@@ -1,7 +1,10 @@
+'use client';
+
+import { useAuth } from '@/components/auth-provider';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BookCard } from "@/components/book-card";
 
-// Mock data
+// Mock data - will be replaced by user data from Firestore
 const readingList = [
   { title: "The Midnight Library" },
   { title: "Project Hail Mary" },
@@ -14,12 +17,26 @@ const wishlist = [
 ];
 
 export default function MyListsPage() {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return <div className="text-center">Loading...</div>;
+  }
+
+  if (!user) {
+    return (
+        <div className="text-center">
+            <p>Please log in to see your lists.</p>
+        </div>
+    );
+  }
+
   return (
     <div className="container mx-auto py-8">
       <header className="mb-12 text-center md:text-left">
         <h1 className="font-headline text-5xl font-bold text-primary mb-2">My Lists</h1>
         <p className="text-lg text-muted-foreground font-body">
-          Your personal collection of books.
+          Your personal collection of books for {user.email}.
         </p>
       </header>
       
