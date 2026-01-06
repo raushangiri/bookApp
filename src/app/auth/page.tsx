@@ -116,7 +116,7 @@ export default function AuthPage() {
                       <Input id="signup-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="m@example.com" required />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="signup-password">Password</H1>
+                      <Label htmlFor="signup-password">Password</Label>
                       <Input id="signup-password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
                     </div>
                     <Button type="submit" className="w-full">Sign Up</Button>
