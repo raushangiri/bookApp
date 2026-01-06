@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "book-1",
+      "description": "Abstract book cover with geometric shapes",
+      "imageUrl": "https://images.unsplash.com/photo-1740487018848-8f2b3e96342e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGNvdmVyfGVufDB8fHx8MTc2NzYwMDg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract cover"
+    },
+    {
+      "id": "book-2",
+      "description": "Vintage book cover with floral pattern",
+      "imageUrl": "https://images.unsplash.com/photo-1551300329-b91a61fa5ebe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aW50YWdlJTIwY292ZXJ8ZW58MHx8fHwxNzY3Njk1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage cover"
+    },
+    {
+      "id": "book-3",
+      "description": "Minimalist book cover with a single object",
+      "imageUrl": "https://images.unsplash.com/photo-1705579296593-2194f6ad7883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwY292ZXJ8ZW58MHx8fHwxNzY3Njk1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist cover"
+    },
+    {
+      "id": "book-4",
+      "description": "Colorful watercolor book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1650391597576-eab26be23154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXRlcmNvbG9yJTIwY292ZXJ8ZW58MHx8fHwxNzY3Njk1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "watercolor cover"
+    },
+    {
+      "id": "book-5",
+      "description": "Dark and mysterious book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1608914182595-048dfc84a647?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY292ZXJ8ZW58MHx8fHwxNzY3Njk1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark cover"
+    },
+    {
+      "id": "book-6",
+      "description": "Nature themed book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1713896608871-ed0a2658c913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuYXR1cmUlMjBjb3ZlcnxlbnwwfHx8fDE3Njc2OTU0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature cover"
+    },
+    {
+      "id": "book-7",
+      "description": "Science fiction book cover",
+      "imageUrl": "https://images.unsplash.com/photo-1760013734442-e6adeb26766b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2lmaSUyMGNvdmVyfGVufDB8fHx8MTc2NzY5NTQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scifi cover"
+    }
+  ]
 }
